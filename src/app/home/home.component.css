@@ -1,0 +1,58 @@
+.demo-table {
+    width: 100%;
+  }
+  
+  .mat-column-demo-position {
+    width: 32px;
+    border-right: 1px solid currentColor;
+    padding-right: 24px;
+    text-align: center;
+  }
+  
+  .mat-column-demo-name {
+    padding-left: 16px;
+    font-size: 20px;
+  }
+  
+  .mat-column-demo-weight {
+    font-style: italic;
+  }
+  
+  .mat-column-demo-symbol {
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .column-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  .column-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .button-margin {
+    margin-right: 5px;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 60px;
+    bottom: 100px;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .table-container {
+    margin-top: 50px;
+  }
+  

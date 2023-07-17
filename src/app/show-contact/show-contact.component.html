@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>Contact Details</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" class="form-control" id="firstName" [value]="contact.firstName" disabled>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" class="form-control" id="lastName" [value]="contact.lastName" disabled>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input type="text" class="form-control" id="address" [value]="contact.address" disabled>
+    </div>
+    <div class="form-group">
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="text" class="form-control" id="phoneNumber" [value]="contact.phoneNumber" disabled>
+    </div>
+    <br/>
+    <div class="form-group">
+      <button class="btn btn-primary" (click)="backHome()">Back</button>
+    </div>
+  </div>
+  
